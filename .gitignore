@@ -1,0 +1,29 @@
+# Python/Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+instance/
+.env
+.env.*
+
+# Flask backend specifics
+pediatra_backend/venv/
+pediatra_backend/src/database/app.db
+pediatra_backend/uploads/
+
+# Node/React
+node_modules/
+**/node_modules/
+*.log
+.pnp*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+.cache/
